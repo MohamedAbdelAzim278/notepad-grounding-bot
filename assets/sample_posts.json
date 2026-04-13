@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Sample Post 1",
+    "body": "This is the body of sample post 1."
+  },
+  {
+    "id": 2,
+    "title": "Sample Post 2",
+    "body": "This is the body of sample post 2."
+  },
+  {
+    "id": 3,
+    "title": "Sample Post 3",
+    "body": "This is the body of sample post 3."
+  },
+  {
+    "id": 4,
+    "title": "Sample Post 4",
+    "body": "This is the body of sample post 4."
+  },
+  {
+    "id": 5,
+    "title": "Sample Post 5",
+    "body": "This is the body of sample post 5."
+  },
+  {
+    "id": 6,
+    "title": "Sample Post 6",
+    "body": "This is the body of sample post 6."
+  },
+  {
+    "id": 7,
+    "title": "Sample Post 7",
+    "body": "This is the body of sample post 7."
+  },
+  {
+    "id": 8,
+    "title": "Sample Post 8",
+    "body": "This is the body of sample post 8."
+  },
+  {
+    "id": 9,
+    "title": "Sample Post 9",
+    "body": "This is the body of sample post 9."
+  },
+  {
+    "id": 10,
+    "title": "Sample Post 10",
+    "body": "This is the body of sample post 10."
+  }
+]
