@@ -6,7 +6,7 @@ A Windows desktop RPA bot that fetches posts from an API and saves each one as a
 
 1. Fetches 10 posts from `https://jsonplaceholder.typicode.com/posts` (falls back to `assets/sample_posts.json` if the API is unreachable)
 2. For each post, detects the Notepad icon on the desktop using BotCity's image matching
-3. Double-clicks it to open Notepad, types the post content, saves it as `~/Desktop/tjm-project/post_<id>.txt`, then closes Notepad
+3. Double-clicks it to open Notepad, types the post content, saves it as `~/Desktop/notepad-posts/post_<id>.txt`, then closes Notepad
 4. Repeats for all 10 posts
 
 A stop button stays always-on-top in the top-right corner so you can halt the bot at any time.
@@ -100,7 +100,7 @@ uv run python main.py
 The bot will:
 - Show a small **Stop** button in the top-right corner of the screen
 - Process each post one by one
-- Save output files to `~/Desktop/tjm-project/`
+- Save output files to `~/Desktop/notepad-posts/`
 - Write a timestamped log to `logs/`
 
 Click **Stop** at any time to halt after the current post finishes.
@@ -116,7 +116,7 @@ All tunable settings are in `config.py`:
 | `BOTCITY_MATCH_THRESHOLD` | `0.9` | Icon detection confidence (0.0–1.0). Lower if detection fails. |
 | `MAX_RETRIES` | `3` | How many times to retry finding the icon before giving up |
 | `RETRY_DELAY_SECONDS` | `1` | Seconds to wait between retries |
-| `SAVE_DIR` | `~/Desktop/tjm-project` | Where the output `.txt` files are saved |
+| `SAVE_DIR` | `~/Desktop/notepad-posts` | Where the output `.txt` files are saved |
 | `TESSERACT_CMD` | `C:\Program Files\Tesseract-OCR\tesseract.exe` | Path to Tesseract executable |
 
 ---

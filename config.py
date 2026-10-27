@@ -6,7 +6,7 @@ OUTPUT_DIR = PROJECT_ROOT / "output"
 LOGS_DIR = PROJECT_ROOT / "logs"
 
 DESKTOP_DIR = Path.home() / "Desktop"
-SAVE_DIR = DESKTOP_DIR / "tjm-project"
+SAVE_DIR = DESKTOP_DIR / "notepad-posts"
 
 NOTEPAD_TEMPLATE = ASSETS_DIR / "notepad_icon.png"
 API_URL = "https://jsonplaceholder.typicode.com/posts"
